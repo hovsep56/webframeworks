@@ -1,0 +1,31 @@
+.topnavigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(26, 200, 162);
+}
+
+.topnavigation li {
+    float: left;
+}
+
+.topnavigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.topnavigation li a:hover{
+    background-color: rgb(26, 150, 162);
+}
+
+.active{
+    background-color: rgb(26, 150, 162);
+}
+
+.notactive{
+    background-color: rgb(26, 200, 162);
+}
